@@ -6,7 +6,7 @@
 
 int main() {
     int num;
-    std::cout << "Введите десятичное число: ";
+    std::cout << "Введіть десяткове число: ";
     std::cin >> num;
 
     int size = log2(num) + 1;
@@ -17,7 +17,7 @@ int main() {
         num /= 2;
     }
 
-    std::cout << "Двоичное число: ";
+    std::cout << "Двійкове число: ";
     for(int i = 0; i < size; i++) {
         std::cout << arr[i];
     }
